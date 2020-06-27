@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/am_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/am_icon"
+        android:id="@+id/am_name"
+        android:text="软件名称"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_toRightOf="@id/am_icon"
+        android:layout_below="@id/am_name"
+        android:id="@+id/am_isRom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="安装位置：SD卡"/>
+    <CheckBox
+        android:layout_marginTop="10dp"
+        android:id="@+id/pm_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:clickable="false"
+        android:focusable="false"
+        />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/am_name"
+        android:id="@+id/am_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="安装包？"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+
+        android:layout_toRightOf="@id/am_isRom"
+        android:id="@+id/am_packname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/am_name"
+        android:text="大小：23M"/>
+</RelativeLayout>

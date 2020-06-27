@@ -1,0 +1,24 @@
+<resources>
+    <array name="text1">
+        <item>手机防盗</item>
+        <item>通讯卫士</item>
+        <item>软件管理</item>
+        <item>进程管理</item>
+        <item>流量统计</item>
+        <item>病毒查杀</item>
+        <item>缓存清理</item>
+        <item>高级工具</item>
+    </array>
+    <array name="text2">
+        <item>手机丢失好找</item>
+        <item>防骚扰防监听</item>
+        <item>方便软件管理</item>
+        <item>保持手机通畅</item>
+        <item>注意流量超标</item>
+        <item>手机安全保障</item>
+        <item>手机快步如飞</item>
+        <item>特性处理更好</item>
+    </array>
+    <string name="app_name">Dashen4</string>
+    <string name="title_activity_setup1">Setup1Activity</string>
+</resources>

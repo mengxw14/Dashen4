@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LocationActivity"
+    android:orientation="vertical">
+    <TextView
+        android:text="号码归属地查询"
+        style="@style/tv_title"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/lc_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入要查询的号码"/>
+    <Button
+        android:id="@+id/lc_find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询"/>
+</LinearLayout>
